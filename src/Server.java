@@ -31,7 +31,7 @@ public class Server implements Runnable {
 
 
 	public Server(){
-		port = Integer.parseInt(JOptionPane.showInputDialog("Enter port"));
+		//port = Integer.parseInt(JOptionPane.showInputDialog("Enter port"));
 		window = new ServerWindow();
 	}
 
